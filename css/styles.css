@@ -3,3 +3,7 @@
 	background-size: cover;
 	height: 448px;
 }
+
+.services img {
+	max-width: 200px;
+}
