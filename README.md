@@ -30,3 +30,8 @@
 * Place within container
 * Should always include columns
 * Gets rid of container padding
+
+#####Columns
+* 30px gutters (15px on each side)
+* Use col-SIZE-SPAN
+* >12 columns wrap
