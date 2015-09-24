@@ -9,4 +9,4 @@
 * JavaScript functionality
 
 
-http://getbootstrap.com/
+[Bootstrap](http://getbootstrap.com/)
