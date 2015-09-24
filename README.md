@@ -24,3 +24,9 @@
 #####Fixed-width Container
 * 15px padding on eachside
 * Adjusts to media query breakpoints
+
+#####Rows
+* Horizontal group of columns
+* Place within container
+* Should always include columns
+* Gets rid of container padding
