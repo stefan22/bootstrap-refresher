@@ -18,3 +18,17 @@
 .services section {
     text-align: center;
 }
+
+@media(min-width: 1200px) {
+	.services h3 {
+		margin-top: 0;
+	}
+
+	.services section {
+		text-align: left;
+	}
+
+	.services .icon {
+		margin-bottom: 40px;
+	}
+}
