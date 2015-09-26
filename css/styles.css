@@ -24,3 +24,7 @@
 	background-size: cover;
 	height: 300px;
 }
+
+.form-inline {
+	text-align: center;
+}
