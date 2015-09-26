@@ -19,3 +19,8 @@
     text-align: center;
 }
 
+.imghead {
+	background: url(../images/field_head.jpg) no-repeat bottom center;
+	background-size: cover;
+	height: 300px;
+}
