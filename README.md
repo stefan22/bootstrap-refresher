@@ -35,3 +35,10 @@
 * 30px gutters (15px on each side)
 * Use col-SIZE-SPAN
 * >12 columns wrap
+
+#####Responsive Utilities
+* Visibility at breakpoints  VISIBILITY-SIZE(-DISPLAY)
+	* Visibility:visible or hidden
+	* Size: xs,sm,md,lg
+	* Display: block, inline, inline-block
+	
