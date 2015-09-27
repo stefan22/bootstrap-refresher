@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Bootstrap</title>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <section class="col-xs-12">
+
+            <form class="form-horizontal">
+
+                <fieldset>
+                    <legend>Basic Info</legend>
+
+                    <div class="form-group form-group-lg">
+                        <label class="col-sm-2 control-label"
+                            for="inputName">Name</label>
+                        <div class="col-sm-10">
+                            <input class="form-control input-lg" type="text"
+                            id="inputName" placeholder="Name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label"
+                            for="inputEmail">Email</label>
+                        <div class="col-sm-10">
+                        <input class="form-control" type="email"
+                            id="inputEmail" placeholder="Email">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label"
+                            for="selectSite">Site</label>
+                        <div class="col-sm-10">
+                        <select class="form-control" id="selectSite">
+                            <option>Choose...</option>
+                            <option>site1.com</option>
+                            <option>site2.com</option>
+                            <option>site3.com</option>
+                        </select>
+                        </div>
+                    </div>
+
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Other Info</legend>
+                        <div class="form-group">
+                            <div class="col-sm-10 col-sm-offset-2">
+                                <div class="checkbox">
+                                    <label>
+                                        <input id="inputAddList"
+                                            type="checkbox">Add me to e-mail blast
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label"
+                                for="inputComments">Comments</label>
+                            <div class="col-sm-10">
+                            <textarea class="form-control"
+                             
+                                id="inputComments"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-10 col-sm-offset-2">
+                                <input type="submit" class="btn btn-default"
+                                value="submit">
+                            </div>
+                        </div>
+
+                </fieldset>
+
+                
+
+                
+
+            </form>
+
+        </section>
+    </div><!-- row -->
+</div><!-- content container -->
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
