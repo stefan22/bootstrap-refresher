@@ -1,31 +1,7 @@
-.bgimage {
-	background: url(../images/southpark.jpg) no-repeat center center;
-	background-size: cover;
-	height: 448px;
+.navbar-default {
+	border:none;
 }
 
-.services img {
-	max-width: 200px;
+.media img {
+	width: 100px;
 }
-
-
-.icon {
-    max-width: 150px;
-    margin: 0 auto;
-    display: block;
-}
-
-.services section {
-    text-align: center;
-}
-
-.imghead {
-	background: url(../images/field_head.jpg) no-repeat bottom center;
-	background-size: cover;
-	height: 300px;
-}
-
-.form-inline {
-	text-align: center;
-}
-
