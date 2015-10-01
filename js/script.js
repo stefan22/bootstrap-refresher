@@ -5,5 +5,7 @@ $(function() {
 		pause:true
 	});
 
+	$('[data-toggle="tooltip"]').tooltip();
+
 
 });
